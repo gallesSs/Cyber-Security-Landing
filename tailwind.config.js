@@ -5,10 +5,5 @@ export default {
 		screens: {
 			md: "768px"
 		},
-		extend: {
-			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-			},
-		},
 	},
 }

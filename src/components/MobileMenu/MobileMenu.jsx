@@ -21,7 +21,7 @@ const MobileMenu = ({ handleOpenMenu, isOpen, handleClose }) => {
       ref={menuRef}
       className={`fixed top-0 right-0 h-full w-64 bg-gray-800 text-amber-100 z-50 transform transition-transform duration-300 ease-in-out ${
         isOpen ? "translate-x-20" : "translate-x-full"
-      }`}>
+      } md:hidden`}>
       <button onClick={handleOpenMenu} className="p-4 text-white">
         Закрыть
       </button>
