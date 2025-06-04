@@ -4,19 +4,33 @@ import MobileMenu from "../MobileMenu/MobileMenu";
 import { useState } from "react";
 
 const Header = () => {
-  const [menuOpen, setmenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleOpenMenu = () => {
-    setmenuOpen(!menuOpen);
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleClose = () => {
+    setMenuOpen(false);
   };
 
   return (
     <header>
       <div className="flex justify-between p-4">
-        <img src={logo} alt="" />
-        {!menuOpen && <img src={menu} alt="" onClick={handleOpenMenu} />}
-        {menuOpen && <MobileMenu handleOpenMenu={handleOpenMenu} />}
+        <img src={logo} alt="Logo" />
+        <img
+          src={menu}
+          alt="Menu"
+          onClick={handleOpenMenu}
+          className={`${menuOpen ? "opacity-0 pointer-events-none" : ""}`}
+        />
       </div>
+
+      <MobileMenu
+        handleOpenMenu={handleOpenMenu}
+        isOpen={menuOpen}
+        handleClose={handleClose}
+      />
     </header>
   );
 };
