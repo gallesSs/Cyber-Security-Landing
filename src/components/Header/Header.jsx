@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="bg-[#FAFAFA]">
-      <div className="flex justify-between p-4 md:px-38">
+      <div className="flex justify-between items-center p-4 md:px-38">
         <img src={logo} alt="Logo" />
         <img
           src={menu}
@@ -26,8 +26,8 @@ const Header = () => {
             menuOpen ? "opacity-0 pointer-events-none" : ""
           } md:hidden`}
         />
-        <nav>
-          <ul className="flex gap-10 text-[#161616] text-base font-medium leading-6">
+        <nav className="hidden md:flex justify-center mt-2">
+          <ul className="flex justify-end gap-10 text-[#161616] text-base font-medium leading-6">
             <li>Demos</li>
             <li>About</li>
             <li>Blog</li>

@@ -1,0 +1,27 @@
+.section {
+  grid-template-areas:
+    "img motto"
+    "img header"
+    "img text"
+    "img btn";
+}
+
+.motto {
+  grid-area: motto;
+}
+
+.header {
+  grid-area: header;
+}
+
+.text {
+  grid-area: text;
+}
+
+.btn {
+  grid-area: btn;
+}
+
+.img {
+  grid-area: img;
+}
