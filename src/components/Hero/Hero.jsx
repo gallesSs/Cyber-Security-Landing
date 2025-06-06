@@ -7,7 +7,11 @@ import bg from "../../assets/Hero/BG.png";
 const Hero = () => {
   return (
     <section
-      className={`pt-12.5 bg-[#FAFAFA] px-4 flex flex-col justify-center items-center gap-4 md:grid ${s.section} md:px-38 md:gap-x-12.5 md:pt-42 md:bg-[${bg}]`}>
+      className={`pt-12.5 pb-25 px-4 flex flex-col justify-center items-center gap-4 md:grid ${s.section} md:px-38 md:gap-x-12.5 md:pt-42 md:pb-80`}
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundRepeat: "no-repeat",
+      }}>
       <p
         className={`${s.motto} text-[#F43F5E] text-xl font-medium leading-7 mb-1 text-center md:text-start`}>
         Ensuring maximum security
