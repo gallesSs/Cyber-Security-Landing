@@ -30,7 +30,7 @@ export default App;
  - [x] Responsive burger menu
  - [x] Style background and layout
 
-Hero Section
+ Hero Section
 
  - [x] Add title and subtitle
  - [x] CTA button
@@ -38,12 +38,12 @@ Hero Section
  - [x] Background image / gradient
  - [x] Make responsive
 
-FIXME: Features Section
- - [ ] Create 3–4 feature cards
- - [ ] Add icons, titles, text
- - [ ] Responsive grid
+ Features Section
+ - [x] Create 3–4 feature cards
+ - [x] Add icons, titles, text
+ - [x] Responsive grid
 
- Security Section
+FIXME: Security Section
  - [ ] Add text block about security
  - [ ] Bullet list (3–5 items)
  - [ ] Add icon or image

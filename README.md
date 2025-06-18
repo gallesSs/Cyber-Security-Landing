@@ -46,10 +46,10 @@ The website is responsive and supports key breakpoints for different devices.
   - [x] Centered content and background styling
   - [x] Responsive design
 
-- [ ] **Features**
-  - [ ] Card layout (3–4 items)
-  - [ ] Icons, titles, and descriptions
-  - [ ] Responsive grid
+- [x] **Features**
+  - [x] Card layout (3–4 items)
+  - [x] Icons, titles, and descriptions
+  - [x] Responsive grid
 
 - [ ] **Security Section**
   - [ ] Text content block
