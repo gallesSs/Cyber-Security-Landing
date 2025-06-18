@@ -40,11 +40,11 @@ The website is responsive and supports key breakpoints for different devices.
   - [x] Burger menu
   - [x] Styling + Responsiveness
 
-- [ ] **Hero Section**
-  - [ ] Main title and subtitle
-  - [ ] Call-to-action (CTA) button
-  - [ ] Centered content and background styling
-  - [ ] Responsive design
+- [x] **Hero Section**
+  - [x] Main title and subtitle
+  - [x] Call-to-action (CTA) button
+  - [x] Centered content and background styling
+  - [x] Responsive design
 
 - [ ] **Features**
   - [ ] Card layout (3–4 items)

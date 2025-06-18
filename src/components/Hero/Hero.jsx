@@ -7,7 +7,7 @@ import bg from "../../assets/Hero/BG.png";
 const Hero = () => {
   return (
     <section
-      className={`pt-12.5 pb-25 px-4 flex flex-col justify-center items-center gap-4 md:grid ${s.section} md:px-38 md:gap-x-12.5 md:pt-42 md:pb-80`}
+      className={`pt-12.5 pb-25 px-4 flex flex-col justify-center items-center gap-4 md:grid ${s.section} md:px-38 md:gap-x-12.5 md:pt-24 md:pb-20`}
       style={{
         backgroundImage: `url(${bg})`,
         backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ const Hero = () => {
         access. Use data as needed and provide security.
       </p>
       <button
-        className={`${s.btn} flex gap-2.5 justify-center items-center px-5 py-4 bg-[#EF4444] text-white rounded-[3px] font-semibold max-w-68`}>
+        className={`${s.btn} flex gap-2.5 justify-center items-center px-5 py-4 bg-[#EF4444] text-white rounded-[3px] font-semibold max-w-68 transition-all duration-300 hover:bg-red-600 hover:scale-102`}>
         <IoIosSearch />
         Scan Your Website - Free!
       </button>

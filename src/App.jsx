@@ -1,3 +1,4 @@
+import Features from "./components/Feaures/Features.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
+      <Features />
     </div>
   );
 };
@@ -28,15 +30,15 @@ export default App;
  - [x] Responsive burger menu
  - [x] Style background and layout
 
- FIXME: Hero Section
+Hero Section
 
- - [ ] Add title and subtitle
- - [ ] CTA button
- - [ ] Centered content
- - [ ] Background image / gradient
- - [ ] Make responsive
+ - [x] Add title and subtitle
+ - [x] CTA button
+ - [x] Centered content
+ - [x] Background image / gradient
+ - [x] Make responsive
 
- Features Section
+FIXME: Features Section
  - [ ] Create 3–4 feature cards
  - [ ] Add icons, titles, text
  - [ ] Responsive grid
