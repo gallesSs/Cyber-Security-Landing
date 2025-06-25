@@ -31,7 +31,7 @@ const Hero = () => {
         Scan Your Website - Free!
       </button>
       <picture className={s.img}>
-        <source srcset={img} media="(min-width: 768px)" />
+        <source srcSet={img} media="(min-width: 768px)" />
         <img src={imgMob} alt="heroImg" />
       </picture>
     </section>

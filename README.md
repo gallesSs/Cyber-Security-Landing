@@ -51,10 +51,15 @@ The website is responsive and supports key breakpoints for different devices.
   - [x] Icons, titles, and descriptions
   - [x] Responsive grid
 
-- [ ] **Security Section**
-  - [ ] Text content block
-  - [ ] Bullet list (3–5 points)
-  - [ ] Image or icon
+  - [x] **Advantages**
+  - [x] First section
+  - [x] Second section
+  - [x] Done with data from .json file
+
+- [ ] **Reviews Section**
+  - [ ] Review as a single component
+  - [ ] Responsive
+  - [ ] Slidebar
 
 - [ ] **Footer**
   - [ ] Logo + copyright
@@ -64,7 +69,7 @@ The website is responsive and supports key breakpoints for different devices.
 ### 📱 Responsiveness:
 
 - [ ] Mobile-first design
-- [ ] Testing breakpoints: 360px / 768px / 1024px / 1280px+
+- [ ] Testing breakpoints:376px / 768px
 - [ ] Smooth scrolling for anchor links
 
 ### 💄 UI Enhancements:

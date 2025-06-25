@@ -1,6 +1,8 @@
-import Features from "./components/Feaures/Features.jsx";
+import Advantages from "./components/Advantages/Advantages.jsx";
+import Features from "./components/Features/Features.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import data from "./DATA/Advantages/data.json";
 
 const App = () => {
   return (
@@ -8,6 +10,18 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      {data.map((item) => {
+        return (
+          <section className="mb-15" key={item.id}>
+            <Advantages
+              url={item.url}
+              h2={item.h2}
+              p={item.p}
+              reverse={item.id % 2 !== 0}
+            />
+          </section>
+        );
+      })}
     </div>
   );
 };
@@ -39,16 +53,26 @@ export default App;
  - [x] Make responsive
 
  Features Section
- - [x] Create 3–4 feature cards
+ - [x] Create 3 feature cards
  - [x] Add icons, titles, text
  - [x] Responsive grid
 
-FIXME: Security Section
- - [ ] Add text block about security
- - [ ] Bullet list (3–5 items)
- - [ ] Add icon or image
+ Advantages Sections
+ - [x] First content section
+ - [x] Second content section
+ - [x] Done with data from json file
 
- Footer
+FIXME: Reviews Section
+ - [ ] Review as a single component
+ - [ ] Responsive
+ - [ ] Slidebar
+
+ Plans
+ - [ ] Plans as single components
+ - [ ] Data from .json file
+ - [ ] Hover styles
+
+  Footer
  - [ ] Add logo and copyright
  - [ ] Quick links menu
  - [ ] Social media icons
