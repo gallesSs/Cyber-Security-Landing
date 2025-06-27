@@ -4,7 +4,7 @@ import img3 from "../../assets/Features/feature3.svg";
 
 const Features = () => {
   return (
-    <section className="px-30 md:mb-22.5">
+    <section className="md:px-30 md:mb-22.5">
       <ul className="p-8 flex flex-col justify-center items-center gap-7.5 md:flex-row md:p-0">
         <li className="p-7.5 flex flex-col justify-center items-center gap-4 text-[#12141D] border-b-1 border-b-[#E4E4E7] md:items-start md:border-b-0 md:border-r-1 md:border-r-[#E4E4E7] md:max-w-106.5">
           <img src={img1} alt="img1" className="w-15 mb-1" />

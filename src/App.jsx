@@ -1,8 +1,12 @@
-import Advantages from "./components/Advantages/Advantages.jsx";
 import Features from "./components/Features/Features.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import Review from "./components/Review/Review.jsx";
 import data from "./DATA/Advantages/data.json";
+import review from "../public/Reviews/reviews-bg.png";
+import AdvantagesList from "./components/Advantage/AdvantagesList.jsx";
+import ReviewList from "./components/Review/ReviewList.jsx";
+import reviewData from "./DATA/Reviews/data.json";
 
 const App = () => {
   return (
@@ -10,18 +14,18 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
-      {data.map((item) => {
-        return (
-          <section className="mb-15" key={item.id}>
-            <Advantages
-              url={item.url}
-              h2={item.h2}
-              p={item.p}
-              reverse={item.id % 2 !== 0}
-            />
-          </section>
-        );
-      })}
+      <AdvantagesList data={data} />
+      <ReviewList data={reviewData} />
+      {/* <section
+        style={{
+          backgroundImage: `url(${review})`,
+          backgroundRepeat: "no-repeat",
+        }}
+        className="text-white">
+        <h2>Trusted by 1200+ world class businesses</h2>
+        <Review count={4} />
+        <Review count={5} />
+      </section> */}
     </div>
   );
 };
