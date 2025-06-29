@@ -1,12 +1,12 @@
 import Features from "./components/Features/Features.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
-import Review from "./components/Review/Review.jsx";
 import data from "./DATA/Advantages/data.json";
-import review from "../public/Reviews/reviews-bg.png";
 import AdvantagesList from "./components/Advantage/AdvantagesList.jsx";
 import ReviewList from "./components/Review/ReviewList.jsx";
 import reviewData from "./DATA/Reviews/data.json";
+import PlanList from "./components/Plans/PlanList.jsx";
+import plans from "./DATA/Plans/data.json";
 
 const App = () => {
   return (
@@ -16,16 +16,7 @@ const App = () => {
       <Features />
       <AdvantagesList data={data} />
       <ReviewList data={reviewData} />
-      {/* <section
-        style={{
-          backgroundImage: `url(${review})`,
-          backgroundRepeat: "no-repeat",
-        }}
-        className="text-white">
-        <h2>Trusted by 1200+ world class businesses</h2>
-        <Review count={4} />
-        <Review count={5} />
-      </section> */}
+      <PlanList data={plans} />
     </div>
   );
 };
@@ -66,12 +57,12 @@ export default App;
  - [x] Second content section
  - [x] Done with data from json file
 
-FIXME: Reviews Section
- - [ ] Review as a single component
- - [ ] Responsive
- - [ ] Slidebar
+ Reviews Section
+ - [x] Review as a single component
+ - [x] Responsive
+ - [x] Slidebar
 
- Plans
+FIXME: Plans
  - [ ] Plans as single components
  - [ ] Data from .json file
  - [ ] Hover styles
@@ -83,7 +74,7 @@ FIXME: Reviews Section
 
  📱 Responsiveness
  - [ ] Mobile-first styling
- - [ ] Test breakpoints: 360px, 768px, 1024px, 1280px
+ - [ ] Test breakpoints: 375px, 1600px only
  - [ ] Smooth scroll for anchor links
 
  💡 UI Enhancements

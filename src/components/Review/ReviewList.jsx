@@ -25,7 +25,7 @@ const ReviewList = ({ data }) => {
       {/* ✅ Обёртка с relative для навигации */}
       <div className="relative md:w-[1211px] mx-auto">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation]}
           loop={true}
           slidesPerView={1}
           pagination={{ clickable: true }}
@@ -34,7 +34,7 @@ const ReviewList = ({ data }) => {
             prevEl: ".swiper-button-prev-custom",
           }}
           breakpoints={{
-            1024: {
+            768: {
               slidesPerView: 2,
               spaceBetween: 211,
             },

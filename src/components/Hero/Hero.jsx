@@ -26,7 +26,7 @@ const Hero = () => {
         access. Use data as needed and provide security.
       </p>
       <button
-        className={`${s.btn} flex gap-2.5 justify-center items-center px-5 py-4 bg-[#EF4444] text-white rounded-[3px] font-semibold max-w-68 transition-all duration-300 hover:bg-red-600 hover:scale-102`}>
+        className={`${s.btn} flex gap-2.5 justify-center items-center px-5 py-4 bg-[#EF4444] text-white rounded-[3px] font-semibold max-w-68 transition-all duration-300 hover:bg-red-600 active:bg-red-600 hover:scale-102 cursor-pointer`}>
         <IoIosSearch />
         Scan Your Website - Free!
       </button>

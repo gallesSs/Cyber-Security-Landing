@@ -6,7 +6,7 @@ const Advantages = ({ url, h2, p, reverse }) => {
     <ul
       className={clsx(
         "px-16 flex flex-col justify-center items-center gap-4 md:px-38 md:justify-between",
-        reverse ? "md:flex-row-reverse" : "flex-row"
+        reverse ? "md:flex-row-reverse" : "md:flex-row"
       )}>
       <img src={url} alt="image-advantage" className="w-85.75 md:w-143" />
       <div className="flex flex-col justify-center items-center gap-4 md:items-start md:gap-7.5">
