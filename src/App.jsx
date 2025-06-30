@@ -15,8 +15,10 @@ const App = () => {
       <Header />
       <Hero />
       <Features data={features} />
-      {/* <AdvantagesList data={advantages} />
-      <ReviewList data={reviews} />
+      <AdvantagesList data={advantages} />
+      <p className="text-base xxl:text-[40px]">Тест xxl</p>
+
+      {/* <ReviewList data={reviews} />
       <PlanList data={plans} /> */}
     </>
   );

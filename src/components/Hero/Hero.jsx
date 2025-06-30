@@ -13,8 +13,8 @@ const Hero = () => {
         setbgStyle({
           backgroundImage: `url(${bg})`,
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundPosition: "right",
+          backgroundSize: "contain",
         });
       } else {
         setbgStyle({});
@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <section
       style={bgStyle}
-      className="bg-[#fafafa] w-full lg:h-screen bg-no-repeat bg-center bg-cover px-4 flex flex-col items-center lg:px-[9.5%] lg:flex-row-reverse pt-12 lg:gap-12 lg:items-center lg:justify-center mb-15 md:mb-20">
+      className="bg-[#fafafa] w-full bg-no-repeat bg-right bg-contain px-4 flex flex-col items-center lg:px-[9.5%] lg:flex-row-reverse pt-12 lg:gap-12 lg:items-center lg:justify-center mb-15 md:mb-20 xl:pb-25">
       <div className="flex flex-col items-center justify-center mb-11 gap-4 lg:items-start lg:max-w-[60%] xxl:max-w-[40%]">
         <p className="text-[#F43F5E] text-xl mb-1 font-medium leading-7 text-center lg:text-start">
           Ensuring maximum security
@@ -46,7 +46,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <picture className="lg:max-w-[38%]">
+      <picture className="lg:max-w-[38%] en:min-w-[606px]">
         <source srcSet={img} media="(min-width: 768px)" />
         <img src={imgMob} alt="heroImg" />
       </picture>
