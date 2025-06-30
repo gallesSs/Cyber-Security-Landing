@@ -1,27 +1,23 @@
 .section {
-  grid-template-areas:
-    "img motto"
-    "img header"
-    "img text"
-    "img btn";
-}
-
-.motto {
-  grid-area: motto;
-}
-
-.header {
-  grid-area: header;
-}
-
-.text {
-  grid-area: text;
-}
-
-.btn {
-  grid-area: btn;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(3, 0);
+  grid-template-rows: repeat(4, 1fr) 0;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .img {
-  grid-area: img;
+  grid-area: 1 / 1 / 5 / 2;
+}
+.motto {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.header {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.text {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.btn {
+  grid-area: 4 / 2 / 5 / 3;
 }

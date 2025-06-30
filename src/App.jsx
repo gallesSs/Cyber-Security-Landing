@@ -1,23 +1,24 @@
 import Features from "./components/Features/Features.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
-import data from "./DATA/Advantages/data.json";
+import features from "./DATA/Features/data.json";
+import advantages from "./DATA/Advantages/data.json";
 import AdvantagesList from "./components/Advantage/AdvantagesList.jsx";
 import ReviewList from "./components/Review/ReviewList.jsx";
-import reviewData from "./DATA/Reviews/data.json";
+import reviews from "./DATA/Reviews/data.json";
 import PlanList from "./components/Plans/PlanList.jsx";
 import plans from "./DATA/Plans/data.json";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
-      <Features />
-      <AdvantagesList data={data} />
-      <ReviewList data={reviewData} />
-      <PlanList data={plans} />
-    </div>
+      <Features data={features} />
+      {/* <AdvantagesList data={advantages} />
+      <ReviewList data={reviews} />
+      <PlanList data={plans} /> */}
+    </>
   );
 };
 

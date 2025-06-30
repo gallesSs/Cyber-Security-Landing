@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="bg-[#FAFAFA]">
-      <div className="flex justify-between items-center p-4 md:px-38">
+      <div className="flex justify-between items-center p-4 md:px-[9.5%]">
         <img src={logo} alt="Logo" />
         <img
           src={menu}
@@ -28,11 +28,21 @@ const Header = () => {
         />
         <nav className="hidden md:flex justify-center mt-2">
           <ul className="flex justify-end gap-10 text-[#161616] text-base font-medium leading-6">
-            <li>Demos</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Pages</li>
-            <li>Contact</li>
+            <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
+              Demos
+            </li>
+            <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
+              About
+            </li>
+            <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
+              Blog
+            </li>
+            <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
+              Pages
+            </li>
+            <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
+              Contact
+            </li>
           </ul>
         </nav>
       </div>
