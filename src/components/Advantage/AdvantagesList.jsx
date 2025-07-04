@@ -5,7 +5,7 @@ const AdvantagesList = ({ data }) => {
   return (
     <>
       {data.map((item) => (
-        <section className="mb-15" key={item.id}>
+        <section className="mb-15 scroll-mt-20" id="Advantages" key={item.id}>
           <Advantage
             url={item.url}
             h2={item.h2}

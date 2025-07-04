@@ -56,32 +56,32 @@ The website is responsive and supports key breakpoints for different devices.
   - [x] Second section
   - [x] Done with data from .json file
 
-- [ ] **Reviews Section**
-  - [ ] Review as a single component
-  - [ ] Responsive
-  - [ ] Slidebar
+- [x] **Reviews Section**
+  - [x] Review as a single component
+  - [x] Responsive
+  - [x] Slidebar
 
-- [ ] **Footer**
-  - [ ] Logo + copyright
-  - [ ] Quick links menu
-  - [ ] Social media icons
+- [x] **Footer**
+  - [x] Logo + copyright
+  - [x] Quick links menu
+  - [x] Social media icons
 
 ### 📱 Responsiveness:
 
-- [ ] Mobile-first design
-- [ ] Testing breakpoints:376px / 768px
-- [ ] Smooth scrolling for anchor links
+- [x] Mobile-first design
+- [x] Testing breakpoints:376px / 768px
+- [x] Smooth scrolling for anchor links
 
 ### 💄 UI Enhancements:
 
-- [ ] Button hover animations
-- [ ] Scroll-triggered section animations
+- [x] Button hover animations
+- [x] Scroll-triggered section animations
 
 ### ✅ Final Steps:
 
-- [ ] Final review
-- [ ] Performance test via PageSpeed Insights
-- [ ] Deploy to GitHub and Vercel
+- [x] Final review
+- [x] Performance test via PageSpeed Insights
+- [x] Deploy to GitHub and Vercel
 
 ## 🖥 How to Run Locally
 

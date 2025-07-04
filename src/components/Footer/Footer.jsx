@@ -8,7 +8,9 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = ({ data }) => {
   return (
-    <footer className="bg-[#18181b] px-4 py-10 text-white md:px-[9.5%]">
+    <footer
+      className="bg-[#18181b] px-4 py-10 text-white md:px-[9.5%] scroll-mt-20"
+      id="Contact">
       <div className="mb-16">
         <ul className="flex flex-wrap justify-between gap-y-10 items-baseline">
           <li className="py-4">
