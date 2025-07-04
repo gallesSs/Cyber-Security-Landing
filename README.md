@@ -22,7 +22,7 @@ The website is responsive and supports key breakpoints for different devices.
 
 ## 🚀 Demo
 
-*(The link will be added after deploying to Vercel)*
+https://cyber-security-landing-plum.vercel.app/
 
 ## 📝 To-Do List
 
