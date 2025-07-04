@@ -27,6 +27,7 @@ const Hero = () => {
 
   return (
     <section
+      id="About"
       style={bgStyle}
       className="bg-[#fafafa] w-full bg-no-repeat bg-right bg-contain px-4 flex flex-col items-center lg:px-[9.5%] lg:flex-row-reverse pt-12 lg:gap-12 lg:items-center lg:justify-center mb-15 md:mb-20 xl:pb-25">
       <div className="flex flex-col items-center justify-center mb-11 gap-4 lg:items-start lg:max-w-[60%] xxl:max-w-[40%]">

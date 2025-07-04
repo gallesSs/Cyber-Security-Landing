@@ -1,5 +1,5 @@
-import logo from "../../assets/Header/Logo.svg";
-import menu from "../../assets/Header/Menubar.svg";
+import logo from "/public/Header/Logo.svg";
+import menu from "/public/Header/Menubar.svg";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useState } from "react";
 
@@ -29,16 +29,16 @@ const Header = () => {
         <nav className="hidden md:flex justify-center mt-2">
           <ul className="flex justify-end gap-10 text-[#161616] text-base font-medium leading-6">
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Demos
+              <a href="#About">About</a>
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              About
+              <a href="#Features">Features</a>
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Blog
+              Advantages
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Pages
+              Reviews
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
               Contact

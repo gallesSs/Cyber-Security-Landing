@@ -3,7 +3,7 @@ import React from "react";
 const Review = ({ count, text, author }) => {
   const array = Array.from({ length: count });
   return (
-    <div className="flex flex-col justify-center items-center gap-5 md:max-w-111 md:gap-8">
+    <div className="flex flex-col justify-center items-center gap-5 md:max-w-111 md:mx-auto md:gap-8">
       <ul className="flex">
         {array.map((_, index) => {
           return (

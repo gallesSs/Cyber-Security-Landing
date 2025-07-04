@@ -26,10 +26,14 @@ const MobileMenu = ({ handleOpenMenu, isOpen, handleClose }) => {
         Закрыть
       </button>
       <ul className="p-6 space-y-4">
-        <li>Demos</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Pages</li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Features">Features</a>
+        </li>
+        <li>Advantages</li>
+        <li>Reviews</li>
         <li>Contact</li>
       </ul>
     </div>

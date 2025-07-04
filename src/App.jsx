@@ -8,6 +8,9 @@ import ReviewList from "./components/Review/ReviewList.jsx";
 import reviews from "./DATA/Reviews/data.json";
 import PlanList from "./components/Plans/PlanList.jsx";
 import plans from "./DATA/Plans/data.json";
+import Ads from "./components/Ads/Ads.jsx";
+import ads from "./DATA/Ads/data.json";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
   return (
@@ -16,10 +19,10 @@ const App = () => {
       <Hero />
       <Features data={features} />
       <AdvantagesList data={advantages} />
-      <p className="text-base xxl:text-[40px]">Тест xxl</p>
-
-      {/* <ReviewList data={reviews} />
-      <PlanList data={plans} /> */}
+      <ReviewList data={reviews} />
+      <PlanList data={plans} />
+      <Ads data={ads} />
+      <Footer />
     </>
   );
 };
@@ -65,10 +68,14 @@ export default App;
  - [x] Responsive
  - [x] Slidebar
 
-FIXME: Plans
- - [ ] Plans as single components
- - [ ] Data from .json file
- - [ ] Hover styles
+ Plans
+ - [x] Plans as single components
+ - [x] Data from .json file
+ - [x] Hover styles
+
+FIXME:  Ads
+ - [ ] CTA button
+ - [ ] Hover style
 
   Footer
  - [ ] Add logo and copyright

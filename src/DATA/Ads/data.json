@@ -1,0 +1,14 @@
+[
+    {
+        "url": "/public/Ads/ad1.svg",
+        "title": "Store data on cloud",
+        "subtitle": "Create beautiful landing pages with Rareblocks that converts.",
+        "id": 1
+    },
+        {
+        "url": "/public/Ads/ad2.svg",
+        "title": "Connect dots smartly",
+        "subtitle": "Create beautiful landing pages with Rareblocks that converts.",
+        "id": 2
+    }
+]

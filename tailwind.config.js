@@ -1,11 +1,10 @@
 
 export default {
-	content: ['./index.html',"./src/**/*.{js,jsx,ts,tsx}",  // <== проверь этот путь!
+	content: ['./index.html',"./src/**/*.{js,jsx,ts,tsx}",
 	],
   theme: {
     extend: {
-      screens: {
-      },
+            scrollBehavior: ['smooth'],
     },
   },
 plugins: [

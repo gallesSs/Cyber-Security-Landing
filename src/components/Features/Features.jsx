@@ -2,7 +2,9 @@ import Feature from "./Feature";
 
 const Features = ({ data }) => {
   return (
-    <section className="px-8 lg:px-[9.5%] mb-10 lg:mb-20">
+    <section
+      className="px-8 lg:px-[9.5%] mb-10 lg:mb-20  scroll-mt-20"
+      id="Features">
       <ul className="w-full flex flex-col gap-15 items-center lg:flex-row lg:justify-center xl:gap-26">
         {data.map((item, i) => {
           const isLast = i === data.length - 1;
