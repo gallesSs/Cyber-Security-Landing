@@ -1,5 +1,5 @@
 import React from "react";
-import review from "/public/Reviews/reviews-bg.png";
+import review from "/Reviews/reviews-bg.png";
 import Review from "./Review.jsx";
 
 import { Swiper, SwiperSlide } from "swiper/react";
