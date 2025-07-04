@@ -1,8 +1,7 @@
-import imgMob from "/public/Hero/hero-mob.png";
-import img from "/public/Hero/hero.png";
+import imgMob from "/Hero/hero-mob.png";
+import img from "/Hero/hero.png";
 import { IoIosSearch } from "react-icons/io";
-import s from "./Hero.module.css"; //grid template areas only
-import bg from "/public/Hero/BG.png";
+import bg from "/Hero/BG.png";
 import { useState, useEffect } from "react";
 
 const Hero = () => {

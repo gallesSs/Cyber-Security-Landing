@@ -1,6 +1,6 @@
 import React from "react";
 import FooterCol from "./FooterCol";
-import logo from "/public/Footer/LogoFooter.svg";
+import logo from "/Footer/LogoFooter.svg";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

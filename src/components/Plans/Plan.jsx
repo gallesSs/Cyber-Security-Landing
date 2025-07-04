@@ -24,7 +24,7 @@ const Plan = ({
         </span>
       </div>
       <button
-        className="w-full text-white px-24 py-3 font-semibold leading-6 bg-black transition-all duration-300 group-active:bg-red-600 group-hover:bg-red-600"
+        className="w-full text-white px-24 py-3 font-semibold leading-6 bg-black transition-all duration-300 group-active:bg-red-600 group-hover:bg-red-600 cursor-pointer"
         type="button">
         {buttonText}
       </button>

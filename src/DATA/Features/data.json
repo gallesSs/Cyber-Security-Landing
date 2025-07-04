@@ -1,18 +1,18 @@
 [
     {
-        "url": "/public/Features/feature1.svg",
+        "url": "/Features/feature1.svg",
         "title": "Solve Problems Real Time",
         "info": "Real-time problem solving is not just about time, it's about time. This allows you to solve problems within a specified time problem has a solution.",
         "id": 1
     },
     {
-        "url": "/public/Features/feature2.svg",
+        "url": "/Features/feature2.svg",
         "title": "Secured & Safe Payments",
         "info": "By and large, credit cards are easily the most secure and safe payment method to use when you shop online. credit cards most secure.",
         "id": 2
     },
     {
-        "url": "/public/Features/feature3.svg",
+        "url": "/Features/feature3.svg",
         "title": "24/7 Customer Support",
         "info": "The biggest benefit of offering 24/7 support is that you provide a more convenient service for your customers providing clock support.",
         "id": 3

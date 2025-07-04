@@ -1,5 +1,5 @@
-import logo from "/public/Header/Logo.svg";
-import menu from "/public/Header/Menubar.svg";
+import logo from "/Header/Logo.svg";
+import menu from "/Header/Menubar.svg";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useState } from "react";
 

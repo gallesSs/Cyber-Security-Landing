@@ -1,12 +1,12 @@
 [
     {
-        "url": "/public/Advantages/advantage.png",
+        "url": "/Advantages/advantage.png",
         "h2": "We take care of your website",
         "p": "We secure websites by automatically finding and fixing threats. Website security software protects your data website from malicious cyber threats.",
         "id": 1
     },
     {
-        "url": "/public/Advantages/advantage2.png",
+        "url": "/Advantages/advantage2.png",
         "h2": "Data exchange is the most secure",
         "p": "Data security refers to the process of protecting all data from unauthorized access and data corruption throughout its lifecycle.",
         "id": 2
