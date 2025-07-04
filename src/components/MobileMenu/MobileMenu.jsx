@@ -32,9 +32,15 @@ const MobileMenu = ({ handleOpenMenu, isOpen, handleClose }) => {
         <li>
           <a href="#Features">Features</a>
         </li>
-        <li>Advantages</li>
-        <li>Reviews</li>
-        <li>Contact</li>
+        <li>
+          <a href="#Advantages">Advantages</a>
+        </li>
+        <li>
+          <a href="#Reviews">Reviews</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
       </ul>
     </div>
   );

@@ -35,13 +35,13 @@ const Header = () => {
               <a href="#Features">Features</a>
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Advantages
+              <a href="#Advantages">Advantages</a>
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Reviews
+              <a href="#Reviews">Reviews</a>
             </li>
             <li className="hover:text-red-600 transition-all duration-300 active:text-red-600 cursor-pointer">
-              Contact
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </nav>
