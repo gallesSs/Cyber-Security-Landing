@@ -73,26 +73,26 @@ export default App;
  - [x] Data from .json file
  - [x] Hover styles
 
-FIXME:  Ads
- - [ ] CTA button
- - [ ] Hover style
+  Ads
+ - [x] CTA button
+ - [x] Hover style
 
   Footer
- - [ ] Add logo and copyright
- - [ ] Quick links menu
- - [ ] Social media icons
+ - [x] Add logo and copyright
+ - [x] Quick links menu
+ - [x] Social media icons
 
  📱 Responsiveness
- - [ ] Mobile-first styling
- - [ ] Test breakpoints: 375px, 1600px only
- - [ ] Smooth scroll for anchor links
+ - [x] Mobile-first styling
+ - [x] Test breakpoints: 375px, 1600px only
+ - [x] Smooth scroll for anchor links
 
  💡 UI Enhancements
- - [ ] Hover effects for buttons
- - [ ] Scroll animations (optional)
+ - [x] Hover effects for buttons
+ - [x] Scroll animations (optional)
 
  🚀 Final Steps
- - [ ] Final code cleanup and review
- - [ ] Test on PageSpeed Insights
- - [ ] Deploy to GitHub and Vercel
+ - [x] Final code cleanup and review
+ - [x] Test on PageSpeed Insights
+ - [x] Deploy to GitHub and Vercel
 */
