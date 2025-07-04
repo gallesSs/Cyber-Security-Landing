@@ -10,7 +10,7 @@ const Review = ({ count, text, author }) => {
         {array.map((_, index) => {
           return (
             <li key={index}>
-              <img src="/public/Reviews/star.svg" alt="" />
+              <img src="/Reviews/star.svg" alt="" />
             </li>
           );
         })}
